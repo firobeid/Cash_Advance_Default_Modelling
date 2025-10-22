@@ -1,0 +1,23 @@
+# Best-guess pinned dependencies for the notebook and Local_Model utilities
+# These versions are chosen to be compatible with Python 3.9 and each other. Adjust if you use a different Python version.
+pandas==1.5.3
+numpy==1.24.2
+scikit-learn==1.2.2
+optuna==3.2.0
+matplotlib==3.7.1
+seaborn==0.12.2
+joblib==1.2.0
+notebook==6.5.4
+hvplot==0.8.0
+watermark==2.3.0
+python-dotenv==1.0.0
+scipy==1.10.1
+jinja2==3.1.2
+reportlab==4.0.0
+category-encoders==2.6.0
+xgboost==1.7.6
+lazypredict==0.2.12
+tqdm==4.65.0
+
+# Optional/utility
+ipython==8.17.0
