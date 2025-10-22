@@ -1,0 +1,32 @@
+﻿Variable,Description
+DefaultedAdvances,Target variable - whether or not they repaid the advance
+AdvanceAmount,Cash advance amount in dollars
+CurrentBalance,Balance on the user's primary checking account at the time of the cash advance
+LatefeesTotalCount,Total number of late fees on external checking account
+CreditAccounts,Number of credit accounts they've connected to Empower
+LastRepaymentAmount,Amount of most recent debt payment on credit account
+OverdraftCount,Total number of overdrafts on external checking account
+AverageMonthlySpend,Average spending on external checking account
+BalanceAverage,Average balance on external checking acocunt
+BalanceMin,Minimum all time balance on external checking
+TotalAssets,Total balance across all connected accounts (including debt / investments)
+AverageNumberOfTransactionsADay,Average transactions per day on all accounts
+TotalCash,Total cash in all connected accounts (checking / savings)
+LatefeesCount,Total late fees on external account
+Paycheck,Estimated income from all paychecks detected
+TotalHistoryInDays,"Number of days of history we have on the external account (while we do get up to a year's worth of past history at sign up, this is influenced by their tenure as a customer). For new users we could get only 30 days or less. "
+AverageMonthlyIncome,Estimated income from all transactions
+AverageMonthlyDiscretionarySpend,"Average spending on discretionary categories (e.g., grocery)"
+CheckingAccountCount,Number of checking accounts connected to Empower
+CreditAccountCount,Number of credit accounts connected to Empower
+SavingsAccountCount,Number of savings accounts connected to Empower
+AverageNumberOfTransactionsADayPrimaryChecking,Average transactions per day on external checking account
+SuspiciousTransactionCount,"Number of high risk transactions (e.g., check returns)"
+NegativeBalanceCount,Number of days with a negative balance on external account
+PaycheckModelUsed,One of two models we have for detecting a paycheck
+NumberOfMatches,"The number of matching paychecks in a sequence we detect (e.g., same employer, same timeframe)"
+ErrorRate,"Number of errors in the paycheck sequence (e.g., instances where paycheck is a day early or late)"
+IsNameBased,Does the paycheck series we detect have matching names
+BalanceAbove100L30Count,Number of days in last 30 where the user had over $100 balance in external account
+AveragePotentialMonthlyIncome,Monthly value of detected paycheck series
+HasEmpowerBanking,Does the user have an Empower deposit account
